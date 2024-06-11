@@ -1,0 +1,38 @@
+
+
+.Header{
+
+    min-height: 10vh ;
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem;
+
+    &-h1{
+        max-width: 10rem;
+        background-color: red;
+
+        @media(max-width: 480px ){
+            max-width: 5rem ;
+        }
+    }
+    &-nav{
+        background-color: red;
+        width: 30rem;
+    }
+    &-ul{
+        
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-li{
+        background-color: blue($color: #000000);
+    }
+}
