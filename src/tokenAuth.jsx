@@ -55,9 +55,9 @@ const Auth = () => {
     const code = urlParams.get('code');
 
     const getAccessToken = async (authorizationCode) => {
-      const appId = process.env.REACT_APP_INSTAGRAM_APP_ID;
-      const appSecret = process.env.REACT_APP_INSTAGRAM_APP_SECRET;
-      const redirectUri = process.env.REACT_APP_INSTAGRAM_REDIRECT_URI;
+      const appId = '7507129022746105';
+      const appSecret = '9a6dc08bc500bf9738a9cbaea22074b2';
+      const redirectUri = 'https://vamps-of-the-world.vercel.app/';
 
       const url = 'https://api.instagram.com/oauth/access_token';
 
