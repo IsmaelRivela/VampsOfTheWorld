@@ -3,6 +3,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Main from './Components/Main/Main'
 import Auth from './tokenAuth'
+import InstagramAuth from './instagramAuth'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function App() {
      {/* <Main/> */}
 
      <Auth/>
-     
+     <InstagramAuth/>
     </>
   )
 }
