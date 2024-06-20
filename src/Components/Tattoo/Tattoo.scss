@@ -1,13 +1,15 @@
 .Article{
 
     width: 18.75rem;
-    min-height: 31.25rem;
+    min-height: 22rem;
     background-color: blue;
 
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
+
+    padding: 2rem;
 
     &-img-container{
         width: 16rem;
@@ -17,13 +19,13 @@
 
     }
 
-    &-img{
+    // &-img{
 
-    }
+    // }
 
-    &-h3{
+    // &-h3{
 
         
-    }
+    // }
 }
 

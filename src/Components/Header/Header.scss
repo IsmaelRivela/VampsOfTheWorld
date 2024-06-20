@@ -24,6 +24,10 @@
     &-nav{
         background-color: red;
         width: 30rem;
+
+        @media(max-width: 480px ){
+            max-width: 5rem ;
+        }
     }
     &-ul{
         

@@ -100,10 +100,12 @@ body{
   
   font-family: "fit-variable",sans-serif;
   font-variation-settings: 'wdth' 800;
+
+  min-height: 150vh;
   
 
   background-color: black;
-  overflow: hidden;
+  
 
   color: white;
 

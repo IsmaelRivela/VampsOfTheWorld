@@ -21,6 +21,11 @@
   background-color: red;
   width: 30rem;
 }
+@media (max-width: 480px) {
+  .Header-nav {
+    max-width: 5rem;
+  }
+}
 .Header-ul {
   display: flex;
   flex-flow: row nowrap;
