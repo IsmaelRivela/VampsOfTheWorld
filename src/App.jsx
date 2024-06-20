@@ -12,9 +12,9 @@ function App() {
     <>
      <Header/>
      {/* <Main/> */}
-
+      <InstagramAuth/>
      <Auth/>
-     <InstagramAuth/>
+     
     </>
   )
 }
