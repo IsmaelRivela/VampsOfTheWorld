@@ -22,7 +22,7 @@ import axios from 'axios'
 
             modificarVariable( info.slice(0,10) )
 
-
+ 
         }
       
          prueba()
