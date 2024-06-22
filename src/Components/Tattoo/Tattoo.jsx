@@ -4,7 +4,7 @@ const Tattoo = (props)=> {
 
     return(
 
-        <a href='#' target='_blank'>
+        <a href='#'>
             <article className='Article'>
 
                 <div className="Article-img-container">
