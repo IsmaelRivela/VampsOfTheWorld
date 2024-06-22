@@ -1,7 +1,6 @@
 import './Main.css'
 import Tattoo from '../Tattoo/Tattoo'
 import { useEffect, useState } from 'react'
-import axios from 'axios'
 
 
 
